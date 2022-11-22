@@ -1,0 +1,356 @@
+.bgimg{
+	background-image:url('88.jpg');
+	background-size:100% 100%;
+	width:100%;
+	background-attachment:fixed;
+	top:0;
+	height:670px;
+	overflow-y:hidden;
+}
+.heading1{
+	font-size:55px;
+ color: orange;
+}
+.heading2{
+	font-size:45px;
+	animation-name:guru;
+	animation-duration:3s;
+	 color: orange;
+	animation-iteration-count: infinite;
+	
+}
+@keyframes guru{
+	from{width:400px}
+	to{width:1100px}
+}
+.year{
+	font-size: 15px;
+	position:absolute;
+	top: 130px;
+	left:1080px;
+	font-size: 20px;
+		color:
+white;
+		font-weight:bold;
+}
+.b1{
+width:200px;
+position: absolute;
+top: 250px;
+left:100px;
+font-size: 20px;
+		color:
+white;
+		font-weight:bold;
+}
+.b2{
+	width:200px;
+	position: absolute;
+	top: 280px;
+	left:100px;
+	font-size: 20px;
+
+	}
+	
+	.c1{
+		width:200px;
+		position: absolute;
+		top: 470px;
+		left:1080px;
+		font-size: 20px;
+		color:white;
+		font-weight:bold;
+		}
+		.c2{
+			width:200px;
+			position: absolute;
+			top: 500px;
+			left:1080px;
+			font-size: 20px;
+		
+			}
+			
+.contact{
+	height:620px;
+	margin-top:50px;
+}
+.project{
+	height:620px;
+	margin-top:50px;
+}
+
+
+
+.year2{
+	font-size: 45px;
+	position:absolute;
+	top: 150px;
+	left:1130px;
+}
+.tech{
+	margin-top:20px;
+}
+.tech2{
+	margin-top: -20px;
+}
+.quali{
+	width:100%;
+	height: 700px;
+}
+.pic{
+	width:70px;
+	height:70px;
+}
+.qul{
+	font-weight: bold;
+}
+.pic2{
+	width:50px;
+	height:50px;
+
+}
+
+
+.headerset{
+	box-sizing:border-box;
+	padding:150px;
+}
+.headerset h2{
+	font-size:32px;
+	
+}
+.headerset h1{
+	font-size:82px;
+	font-weight:bold;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	animation-duration:3s;
+}
+
+.icon{
+	font-size:150px;
+}
+.anim:hover{
+	color:black;
+	background-color:lightblue;
+font-size: 30px;
+
+}
+
+
+.skil{
+	padding:50px 0;
+	height:680px;
+	
+	/* background-color: rgb(183, 117, 240); */
+	animation-name: skil;
+	animation-duration: 2s;	
+}
+@keyframes skil {
+	from{width:0px;}
+	to{width:1200px;}
+	
+}
+.Qualification{
+	margin-top:30px;
+width:100%;
+height:635px;
+}
+.ourservices h1{
+		font-size:50px;
+	font-weight:bold;
+}
+.rowsetting{
+	padding:40px 0;
+	
+}
+.imagesetting{
+	border-radius:50%;
+
+}
+.portfolio{
+	height:1100px;
+	width:100%;
+	padding:100px 0px 50px;	
+}
+.portfolio h1{
+	font-size:50px;
+	font-weight:bold;
+}
+.ourteam h1{
+	font-weight:bold;
+	font-size:50px;
+}
+hover{
+	transform:scale(1.05,1.2);
+}
+
+.footer{
+	background-color:rgb(32,33,34);
+	height:80px;
+	width:100%;
+	color:white;
+	display:flex;
+	text-align:cener;
+	justify-content:center;
+}
+	.service{
+	width:auto;
+	animation-name:guru;
+	animation-iteration-count:1;
+	animation-duration:3s;
+	animation-direction:ease-in;
+	
+}
+
+
+
+.card:hover{
+	transform:scale(1.05,1.02);
+}
+
+
+/*responsive*/
+@media (max-width:992px){
+
+	
+}
+@media (max-width:768px) and (max-width:991px){
+	
+}
+	
+
+@media(min-width:575px) and (max-width:767px){
+	
+
+}
+@media(min-width:480px) and (max-width:574px){
+	
+	
+
+	
+	.headerset h2{
+	font-size:22px;
+	
+}
+.headerset h1{
+
+	font-size:30px;
+
+	font-weight:bold;
+	
+}
+.heading2{
+	font-size:25px;
+	animation-name:guru;
+	animation-duration:3s;
+	
+}
+keyframes guru{
+	from{width:150px}
+	to{width:340px}
+}
+	
+}
+@media (max-width:500px){
+	.bgimg{
+		background-image:url('88.jpg');
+		background-size:100% 100%;
+		width:100%;
+		background-attachment:fixed;
+		top:0;
+		height:1200px;
+	}
+	.headerset h2{
+	font-size:33px;
+	
+}
+
+	.heading1{
+	font-size:35px;
+
+	/* color: black; */
+}
+.heading2{
+	font-size:35px;
+	
+	
+}
+
+.headerset h1{
+
+	font-size:20px;
+
+	font-weight:bold;
+	
+}
+.portfolio{
+	height:2400px;
+}
+
+.skil{
+	padding:30px 0;
+	
+height:1400px;	
+margin-top:80px;
+}
+
+
+.project{
+	height:800px;
+	margin-top:50px;
+}
+
+
+.Qualification{
+	margin-top:60px;
+width:100%;
+height:820px;
+}
+
+.year{
+	font-size: 15px;
+	position:absolute;
+	top: 710px;
+	left:120px;
+	
+}
+.year2{
+	font-size: 25px;
+	position:absolute;
+	top:730px;
+	left:180px;
+}
+
+.b1{
+	width:200px;
+	position: absolute;
+	top: 550px;
+	left:80px;
+	font-size: 15px;
+	}
+	.b2{
+		width:200px;
+		position: absolute;
+		top: 570px;
+		left:90px;
+		font-size: 20px;
+	
+		}
+		
+		.c1{
+			width:200px;
+			position: absolute;
+			top: 760px;
+			left:90px;
+			font-size: 15px;
+			}
+			.c2{
+				width:200px;
+				position: absolute;
+				top: 790px;
+				left:85px;
+				font-size: 20px;
+			
+				}
+}
